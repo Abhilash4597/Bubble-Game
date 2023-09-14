@@ -63,6 +63,8 @@ body {
   height: calc(100% - 12%);
   padding: 17px 5px 20px 17px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
