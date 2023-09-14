@@ -8,7 +8,7 @@ let score = 0;
 
 function makeBubble() {
   let bubbles = '';
-  for (let i = 1; i <= 154; i++) {
+  for (let i = 1; i <= 153; i++) {
     let randomNumber = Math.floor(Math.random() * 10);
     bubbles += `<div class="bubble">${randomNumber}</div>`;
   }
