@@ -61,7 +61,7 @@ body {
 #panel_btm {
   width: 100%;
   height: calc(100% - 12%);
-  padding: 20px;
+  padding: 17px 5px 20px 17px;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -72,6 +72,11 @@ body {
   width: 40px;
   background-color: rgb(190, 85, 85);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 900;
 }
 
 .bubble:hover{
